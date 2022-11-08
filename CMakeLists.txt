@@ -9,6 +9,7 @@ include(${Slicer_USE_FILE})
 
 #-----------------------------------------------------------------------------
 # Extension modules
+add_subdirectory(AverageMesh)
 add_subdirectory(Decimation)
 add_subdirectory(SurfaceToolbox)
 add_subdirectory(DynamicModeler)
